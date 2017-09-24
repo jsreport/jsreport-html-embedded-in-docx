@@ -5,15 +5,15 @@ Studio.previewListeners.push((request, entities) => {
     return
   }
 
-  if (Studio.extensions.html.options.previewInWordOnline === false) {
+  if (Studio.extensions.html.options.previewInOfficeOnline === false) {
     return
   }
 
-  if (Studio.getSettingValueByKey('docx-preview-informed', false) === true) {
+  if (Studio.getSettingValueByKey('office-preview-informed', false) === true) {
     return
   }
 
-  Studio.setSetting('docx-preview-informed', true)
+  Studio.setSetting('office-preview-informed', true)
 
   Studio.openModal(() => <div>We need to upload your report to our publicly hosted server to be able to use
     Office Online Service for previewing here in the studio. You can disable it in the configuration, see <a
