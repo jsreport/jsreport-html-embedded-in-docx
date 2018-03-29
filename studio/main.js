@@ -57,7 +57,7 @@
 	    return;
 	  }
 	
-	  if (_jsreportStudio2.default.extensions.html.options.previewInOfficeOnline === false) {
+	  if (_jsreportStudio2.default.extensions['html-embedded-in-docx'].options.previewInOfficeOnline === false) {
 	    return;
 	  }
 	

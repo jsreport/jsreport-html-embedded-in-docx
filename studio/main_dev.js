@@ -5,7 +5,7 @@ Studio.previewListeners.push((request, entities) => {
     return
   }
 
-  if (Studio.extensions.html.options.previewInOfficeOnline === false) {
+  if (Studio.extensions['html-embedded-in-docx'].options.previewInOfficeOnline === false) {
     return
   }
 
