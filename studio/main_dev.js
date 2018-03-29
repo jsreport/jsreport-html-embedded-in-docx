@@ -15,8 +15,13 @@ Studio.previewListeners.push((request, entities) => {
 
   Studio.setSetting('office-preview-informed', true)
 
-  Studio.openModal(() => <div>We need to upload your report to our publicly hosted server to be able to use
-    Office Online Service for previewing here in the studio. You can disable it in the configuration, see <a
-      href='https://github.com/jsreport/jsreport-html-embedded-in-docx' target='_blank'>https://github.com/jsreport/jsreport-html-embedded-in-docx</a> for details.
-  </div>)
+  Studio.openModal(() => {
+    return (
+      <div>
+        We need to upload your report to our publicly hosted server to be able to use
+        Office Online Service for previewing here in the studio. You can disable it in the configuration, see
+        <a href='https://github.com/jsreport/jsreport-html-embedded-in-docx' target='_blank'>https://github.com/jsreport/jsreport-html-embedded-in-docx</a> for details.
+      </div>
+    )
+  })
 })
