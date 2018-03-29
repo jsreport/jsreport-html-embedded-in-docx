@@ -23,7 +23,10 @@
       "node": true,
       "mocha": true,
       "browser": true
-    }
+    },
+    "ignore": [
+      "main.js"
+    ]
   },
   "license": "MIT",
   "dependencies": {
