@@ -1,5 +1,20 @@
+
+const schema = {
+  type: 'object',
+  properties: {
+    previewInOfficeOnline: { type: 'booolean' },
+    publicUriForPreview: { type: 'string' }
+  }
+}
+
 module.exports = {
   'name': 'html-embedded-in-docx',
   'main': 'lib/main.js',
-  'dependencies': [ 'templates' ]
+  'dependencies': ['templates'],
+  'optionsSchema': {
+    docx: { ...schema },
+    extensions: {
+      'html-embedded-in-docx': { ...schema }
+    }
+  }
 }
