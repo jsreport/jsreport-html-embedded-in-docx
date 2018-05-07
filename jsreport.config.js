@@ -2,7 +2,7 @@
 const schema = {
   type: 'object',
   properties: {
-    previewInOfficeOnline: { type: 'bolean' },
+    previewInOfficeOnline: { type: 'boolean' },
     publicUriForPreview: { type: 'string' }
   }
 }
