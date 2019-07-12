@@ -10,21 +10,3 @@ See the docs https://jsreport.net/learn/html-embedded-in-docx
 ## Installation
 
 >npm install jsreport-html-embedded-in-docx
-
-## jsreport-core
-
-You can apply this extension also manually to [jsreport-core](https://github.com/jsreport/jsreport-core)
-
-```js
-const jsreport = require('jsreport-core')()
-jsreport.use(require('jsreport-html-embedded-in-docx')())
-
-await jsreport.init()
-const response = await jsreport.render({
-  template: {
-    content: "<h1>Hello</h1>",
-    recipe: "html-embedded-in-docx",
-    engine: "none"
-  }
-})
-```
