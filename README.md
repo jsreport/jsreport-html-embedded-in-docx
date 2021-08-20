@@ -1,3 +1,6 @@
+**⚠️ This repository has been moved to the monorepo [jsreport/jsreport](https://github.com/jsreport/jsreport)**
+--
+
 # jsreport-html-embedded-in-docx
 
 [![NPM Version](http://img.shields.io/npm/v/jsreport-html-embedded-in-docx.svg?style=flat-square)](https://npmjs.com/package/jsreport-html-embedded-in-docx)
