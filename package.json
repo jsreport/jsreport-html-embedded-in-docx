@@ -31,19 +31,19 @@
   "license": "MIT",
   "dependencies": {
     "html-docx-js": "0.3.1",
-    "jsreport-office": "1.2.0",
+    "jsreport-office": "1.2.2",
     "juice": "5.2.0",
     "node.extend.without.arrays": "1.1.6"
   },
   "author": "Jan Blaha",
   "devDependencies": {
     "eslint": "6.0.1",
-    "jsreport-core": "2.7.1",
-    "jsreport-studio-dev": "1.5.0",
-    "jsreport-templates": "2.3.2",
+    "jsreport-core": "2.10.1",
+    "jsreport-studio-dev": "1.6.0",
+    "jsreport-templates": "2.4.0",
     "mocha": "6.1.4",
     "should": "13.2.3",
-    "standard": "13.0.1"
+    "standard": "16.0.4"
   },
   "files": [
     "lib",

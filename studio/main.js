@@ -123,7 +123,7 @@ _jsreportStudio2.default.previewListeners.push(function (request, entities) {
       'We need to upload your report to our publicly hosted server to be able to use Office Online Service for previewing here in the studio. You can disable it in the configuration, see',
       React.createElement(
         'a',
-        { href: 'https://jsreport.net/learn/html-embedded-in-docx', target: '_blank' },
+        { href: 'https://jsreport.net/learn/html-embedded-in-docx', target: '_blank', rel: 'noreferrer' },
         'https://jsreport.net/learn/html-embedded-in-docx'
       ),
       ' for details.'

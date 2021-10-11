@@ -24,7 +24,7 @@ Studio.previewListeners.push((request, entities) => {
       <div>
         We need to upload your report to our publicly hosted server to be able to use
         Office Online Service for previewing here in the studio. You can disable it in the configuration, see
-        <a href='https://jsreport.net/learn/html-embedded-in-docx' target='_blank'>https://jsreport.net/learn/html-embedded-in-docx</a> for details.
+        <a href='https://jsreport.net/learn/html-embedded-in-docx' target='_blank' rel='noreferrer'>https://jsreport.net/learn/html-embedded-in-docx</a> for details.
       </div>
     )
   })
